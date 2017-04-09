@@ -401,3 +401,150 @@ footer p {
     line-height: 22px;
 }
 /*footer*/
+
+@media (min-width: 703px) and (max-width: 1280px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.a-li-join {
+		width: 10%;
+		margin: 0;
+	}
+
+	.logo {
+		margin: 1%;
+	}
+
+	/*about us*/
+	.group-fitness {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.text-fitness-1  {
+		width: 80%;
+		height: auto;
+		padding: 10%;
+	}
+
+	.text-fitness-1 a {
+		width: 30%;
+	}
+	/*abouts us*/
+	
+	/*gallery small*/
+	.gallery {
+		width: 100%;
+		height: 2500px;
+	}
+
+	.gallery-1 {
+		width: 50%;
+	}
+	
+	.gallery-2 {
+		width: 50%;
+	}
+
+	.gallery-3 {
+		width: 50%;
+	}
+
+	.gallery-4 {
+		width: 50%;
+	}
+	
+	.gallery-5 {
+		width: 50%;
+	}
+	/*gallery small*/
+}
+
+@media (max-width: 702px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding-left: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.drop-ul {
+		width: 40%;
+	}
+
+	.a-li-join {
+		width: 20%;
+		margin: 1%;
+	}
+	
+	.logo {
+		margin: 2%;
+	}
+
+	/*about us*/
+	.group-fitness {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.text-fitness-1  {
+		width: 80%;
+		height: auto;
+		padding: 10%;
+	}
+
+	.text-fitness-1 a {
+		width: 30%;
+	}
+	/*abouts us*/
+	
+	/*gallery small*/
+	.gallery {
+		width: 100%;
+		height: 2500px;
+	}
+
+	.gallery-1 {
+		width: 100%;
+	}
+	
+	.gallery-2 {
+		width: 100%;
+	}
+
+	.gallery-3 {
+		width: 100%;
+	}
+
+	.gallery-4 {
+		width: 100%;
+	}
+	
+	.gallery-5 {
+		width: 100%;
+	}
+	/*gallery small*/
+
+	.getup-text a {
+		width: 40%;
+	}
+	
+}
