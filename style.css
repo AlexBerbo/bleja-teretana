@@ -27,6 +27,14 @@ nav {
 	margin-right: auto;
 }
 
+.nav-slika-resp {
+	display: none;
+}
+
+.logo-responsive {
+	display: none;
+}
+
 nav ul {
 	overflow: hidden;
 	list-style-type: none;
@@ -52,7 +60,7 @@ nav ul li {
 .drop-ul .drop-li {
     display: block;
     padding: 7px 15px;
-   border-bottom: 1px solid rgba(204, 204, 204, 0.19);
+    border-bottom: 1px solid rgba(204, 204, 204, 0.19);
     margin-left: 5%;
     margin-right: 5%;
     cursor: pointer;
@@ -79,7 +87,8 @@ nav ul li {
 	align-content: center;
 	flex-wrap: wrap;
 	vertical-align: middle;
-	margin: 0px 350px 15px 0;
+	padding-right: 100%;
+	margin-bottom: 15px;
 }
 
 .a-li {
@@ -279,6 +288,7 @@ nav ul li {
 	background-image: url(img/carousels/packages.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	max-height: 390px;
 	min-height: 390px;
@@ -327,6 +337,7 @@ nav ul li {
 	background-image: url(img/carousels/classes.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	max-height: 390px;
 	min-height: 390px;
@@ -358,6 +369,7 @@ nav ul li {
 	background-image: url(img/carousels/facility.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	max-height: 390px;
 	min-height: 390px;
@@ -459,7 +471,7 @@ nav ul li {
 	color: #fff;
     font-size: 19px;
     text-align: left;
-    padding-left: 40%;
+   padding-left: 40%;
     line-height: 1.7;
 }
 
@@ -470,7 +482,7 @@ nav ul li {
     line-height: 1.8;
     color: #777;
     text-align: left;
-    padding-left: 40%;
+   padding-left: 40%;
 }
 
 .Judy img {
@@ -553,6 +565,7 @@ nav ul li {
 	background-image: url(img/carousels/resources.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	min-height: 260px;
 }
@@ -576,6 +589,7 @@ nav ul li {
 	background-image: url(img/carousels/working-hour.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	min-height: 260px;
 }
@@ -610,6 +624,11 @@ nav ul li {
 	flex-direction: column;
 	flex-wrap: wrap;
 	padding-left: 100px;
+}
+
+.responsive {
+	width: 100%;
+	min-height: 260px;
 }
 
 .slika-insta {
@@ -677,5 +696,82 @@ footer p {
 }
 /*footer*/
 
+
 /*responsive*/
-@media (min-width: 703px) and (max-width: 1280px)
+@media (min-width: 703px) and (max-width: 1280px) {
+
+	/*plan program*/
+	.plan-program {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.program-1 {
+		width: 100%
+	}
+
+	.zavesa-1 {
+		width: 100%;
+	}
+
+	.program-2 {
+		width: 100%
+	}
+
+	.zavesa-2 {
+		width: 100%;
+	}
+
+	.program-3 {
+		width: 100%
+	}
+
+	.zavesa-3 {
+		width: 100%;
+	}
+	/*plan program*/
+
+	/*resourse hours*/
+	.resourse-hours {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+	.resourse-slika {
+		width: 100%;
+	}
+
+	.resourse-zavesa {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.work-hours-slika {
+		width: 100%;
+	}
+
+	.work-zavesa-1 {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.slika-insta a {
+		max-height: 35px;
+		max-width: 35px;
+	}
+
+	.slika-insta {
+		width: 100%
+	}
+
+	.slika-prazno {
+		width: 100%;
+	}
+}

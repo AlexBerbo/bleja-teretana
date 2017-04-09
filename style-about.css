@@ -456,3 +456,36 @@ footer p {
     line-height: 22px;
 }
 /*footer*/
+
+/*responsive*/
+@media (min-width: 703px) and (max-width: 1280px) {
+	/*about us*/
+	.about-us {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.text-aboutus-1 {
+		width: 80%;
+		height: auto;
+		padding: 10%;
+	}
+
+	.text-aboutus-1 a {
+		width: 30%;
+	}
+	/*abouts us*/
+
+	/*why us*/
+		.us {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+
+
+	/*why us*/	
+}
