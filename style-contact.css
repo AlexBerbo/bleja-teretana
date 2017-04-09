@@ -260,7 +260,7 @@ form input {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	max-height: 350px;
+	height: 350px;
 	width: 100%;
 	background-color: black;
 	color: #fff;
@@ -352,6 +352,10 @@ form input {
 	padding-left: 20%;
 	padding-bottom: 80px;
 }
+
+.text-us-3 {
+	display: none;
+}
 /*form us*/
 
 /*resourse hours*/
@@ -422,6 +426,7 @@ form input {
 	background-image: url(img/carousels/resources.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	min-height: 260px;
 }
@@ -445,6 +450,7 @@ form input {
 	background-image: url(img/carousels/working-hour.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-size: cover;
 	width: 33%;
 	min-height: 260px;
 }
@@ -545,3 +551,215 @@ footer p {
     line-height: 22px;
 }
 /*footer*/
+
+/*responsive*/
+@media (min-width: 703px) and (max-width: 1280px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.a-li-join {
+		width: 8%;
+		margin: 0;
+	}
+
+	.logo {
+		margin: 1%;
+	}
+
+	/*about us*/
+	.contact-us {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.text-contactus-1 {
+		width: 80%;
+		height: auto;
+		padding: 10%;
+	}
+
+	.text-contactus-1 a {
+		width: 30%;
+	}
+	/*abouts us*/
+
+	/*why us*/
+	.forma-1 input {
+		width: 18.5%;
+	}
+	/*why us*/
+
+	/*resourse hours*/
+	.resourse-hours {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+	.resourse-slika {
+		width: 100%;
+	}
+
+	.resourse-zavesa {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.work-hours-slika {
+		width: 100%;
+	}
+
+	.work-zavesa-1 {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.slika-insta a {
+		max-height: 35px;
+		max-width: 35px;
+	}
+
+	.slika-insta {
+		width: 100%
+	}
+
+	.slika-prazno {
+		width: 100%;
+	}
+}
+
+@media (max-width: 702px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding-left: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.drop-ul {
+		width: 40%;
+	}
+
+	.a-li-join {
+		width: 20%;
+		margin: 1%;
+	}
+	
+	.logo {
+		margin: 2%;
+	}
+
+	/*about us*/
+	.contact-us {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+
+	.text-contactus-1 {
+		width: 80%;
+		height: auto;
+		padding: 10%;
+	}
+
+	.text-contactus-1 a {
+		width: 30%;
+	}
+	/*abouts us*/
+
+	/*why us*/
+	.us {
+		width: 100%;
+		height: 800px;
+	}
+
+	.slika {
+		width: 100%;
+	}
+
+	.padding-us {
+		width: 100%;
+	}
+
+	.text-us-2 {
+		padding-left: 12%;
+	}
+
+	.forma-1 {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.forma-1 input {
+		width: 71%;
+	}
+	/*why us*/
+
+	/*resourse hours*/
+	.resourse-hours {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+	}
+
+	.resourse-slika {
+		width: 100%;
+	}
+
+	.resourse-zavesa {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.work-hours-slika {
+		width: 100%;
+	}
+
+	.work-zavesa-1 {
+		width: 100%;
+		min-height: 260px;
+	}
+
+	.responsive {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.slika-insta a {
+		max-height: 35px;
+		max-width: 35px;
+	}
+
+	.slika-insta {
+		width: 100%
+	}
+
+	.slika-prazno {
+		width: 100%;
+	}
+}

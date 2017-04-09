@@ -37,7 +37,7 @@ nav ul li {
 .drop-ul .drop-li {
     display: block;
     padding: 7px 15px;
-   border-bottom: 1px solid rgba(204, 204, 204, 0.19);
+    border-bottom: 1px solid rgba(204, 204, 204, 0.19);
     margin-left: 5%;
     margin-right: 5%;
     cursor: pointer;
@@ -46,9 +46,9 @@ nav ul li {
 .drop-ul .drop-li a {
     text-decoration: none;
     color: #777;
-   font-size: 0.9em;
-   font-weight: 400;
-   padding-right: 15px;
+    font-size: 0.9em;
+    font-weight: 400;
+    padding-right: 15px;
 }
 
 .drop-ul .drop-li:hover {
@@ -331,3 +331,104 @@ footer p {
     line-height: 22px;
 }
 /*footer*/
+
+/*responsive*/
+@media (min-width: 703px) and (max-width: 1280px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.a-li-join {
+		width: 8%;
+		margin: 0;
+	}
+
+	.logo {
+		margin: 1%;
+	}
+
+	.jessica {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.slika-jessica {
+		display: flex;
+		align-self: center;
+		width: 50%;
+		height: 400px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+}
+
+@media (max-width: 702px) {
+	nav ul li {
+		box-sizing: border-box;
+		width: 100%;
+		padding-left: 1%;
+		text-align: left;
+	}
+
+	nav {
+		margin-bottom: 25px;
+	}
+
+	.drop-ul {
+		width: 40%;
+	}
+
+	.a-li-join {
+		width: 20%;
+		margin: 1%;
+	}
+	
+	.logo {
+		margin: 2%;
+	}
+
+	.jessica {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.slika-jessica {
+		display: flex;
+		align-self: center;
+		width: 91%;
+		height: 400px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+
+	.lista-1 {
+		width: 30%;
+	}
+
+	.lista-2 {
+		width: 30%;
+	}
+
+	.lista-3 {
+		width: 30%;
+		padding-left: 0;
+		padding-top: 10px;
+	}
+
+	.lista-4 {
+		width: 30%;
+		padding-left: 12%;
+		padding-top: 10px;
+	}
+
+	.getup-text a {
+		width: 40%;
+	}
+}
