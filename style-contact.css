@@ -745,6 +745,10 @@ footer p {
 		min-height: 260px;
 	}
 
+	.work-hours-2 {
+		padding-left: 10%;
+	}
+
 	.responsive {
 		display: flex;
 		flex-direction: row;
